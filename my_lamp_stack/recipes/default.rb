@@ -6,6 +6,8 @@
 
 # Get packages - Version??
 
+Chef::Log(Chef::Node.debug_value("opsworks_java", "jvm"))
+
 pkgs = ["httpd","php"]
 this_is_motd = "God Bless Ya!"
 
